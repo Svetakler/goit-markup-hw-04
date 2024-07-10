@@ -221,7 +221,16 @@ address {
 .specias {
   padding: 120px 0;
 }
-
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+}
 .species-header {
   font-weight: 500;
   font-size: 20px;
