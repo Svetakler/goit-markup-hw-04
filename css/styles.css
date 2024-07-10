@@ -171,7 +171,7 @@ address {
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-image: linear-gradient(
       to bottom,
@@ -189,16 +189,9 @@ address {
   text-align: center;
   line-height: 1.07;
   color: #fff;
-  /* background-color: #2e2f42; */
-
   max-width: 496px;
-  padding-bottom: 48px;
   margin: 0 auto;
-}
-
-.container-one {
-  padding-top: 156px;
-  padding-bottom: 220px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -242,8 +235,6 @@ address {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .specias-list-item {
@@ -279,7 +270,6 @@ address {
   display: flex;
   align-items: center;
   gap: 24px;
-  border-radius: 0 0 4px 4px;
 }
 
 .team-item {
@@ -305,7 +295,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
   margin-bottom: 8px;
 }
 
@@ -317,17 +306,41 @@ address {
   text-align: center;
   color: #434455;
 }
+.network-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.network-item {
+  width: 40px;
+  height: 40px;
+}
+.network-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.network-link:hover {
+  background-color: #31d0aa;
+}
+
+.network-icon {
+  fill: #f4f4fd;
+}
 /*--------------SECTION 4-------------------*/
 .portfolio-header {
   text-transform: capitalize;
-
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.11;
-
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -356,8 +369,6 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-right: 24px;
-  margin-bottom: 48px;
 }
 
 .portfolio-item {
@@ -371,12 +382,16 @@ address {
 
 .portfolio-name {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
   border-top: none;
 }
 
