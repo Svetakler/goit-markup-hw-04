@@ -291,11 +291,6 @@ address {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-item:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
 .team {
   padding: 32px 0 32px;
 }
@@ -318,6 +313,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 .network-list {
   display: flex;
@@ -412,8 +408,6 @@ address {
 
 .overlay {
   position: absolute;
-  width: 360px;
-  height: 300px;
   background-color: #4d5ae5;
   padding: 40px 32px;
   top: 0;
